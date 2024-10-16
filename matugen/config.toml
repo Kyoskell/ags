@@ -1,0 +1,13 @@
+[config]
+prefix = '@'
+reload_apps = false
+set_wallpaper = false
+
+[config.reload_apps_list]
+waybar = false
+kitty = false
+gtk_theme = false
+dusnt = false
+
+[templates]
+test2 = { input_path = "~/.config/matugen/templates/ags.scss.template", output_path = "~/.config/matugen/templates/ags.scss"}

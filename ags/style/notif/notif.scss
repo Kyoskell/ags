@@ -1,0 +1,38 @@
+@use "../colors" as *;
+
+.notif {
+  &-list {
+    margin-top: 20px;
+    background: $on-surface-variant;
+    border-radius: 20px;
+    min-height: 400px;
+  }
+
+  background-color: $primary-container;
+  margin: 10px 20px;
+  padding: 5px;
+  min-height: 150px;
+
+  &-icon {
+    margin: 20px 0 0 10px;
+    color: $on-primary-container;
+    font-size: 4em;
+  }
+
+  &-title {
+    color: $on-primary-container;
+    font-size: 1.2em;
+  }
+
+  &-time {
+    color: $on-primary-container;
+
+  }
+
+  &-close {
+    all: unset;
+    &-icon {
+      color: $outline;
+    }
+  }
+}

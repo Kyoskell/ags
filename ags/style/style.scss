@@ -1,0 +1,19 @@
+@use "bar";
+@use "colors" as *;
+@use "prompt";
+@use "quicksetting/main";
+@use "notif/notification";
+
+scrollbar {
+  all: unset;
+  trough {
+    color: $surface-bright;
+    background-color: $surface-bright;
+    min-width: 0px;
+    slider {
+      background-color: $surface-bright;
+      color: $surface-bright;
+      min-width: 0px;
+    }  
+  }
+}

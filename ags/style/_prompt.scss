@@ -1,0 +1,19 @@
+@use "colors" as *;
+
+.p-button {
+  min-width: 100px;
+  margin: 10px;
+  background: $secondary-container;
+}
+
+.p-icon {
+  font-size: 1.5em;
+  color: $on-secondary-container;
+}
+
+.p-label {
+  color: $inverse-on-surface;
+  border-radius: 5px;
+  background: $inverse-surface;
+}
+

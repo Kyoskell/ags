@@ -1,0 +1,238 @@
+#StatusBar {
+  background: #111318;
+}
+
+.main {
+  margin: 10px 0;
+}
+
+.left-box {
+  margin-left: 200px;
+}
+
+.launcher-button {
+  background: #583e5b;
+}
+.launcher-icon {
+  color: #fbd7fc;
+}
+
+.workspace {
+  background: #2b4678;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+.workspace-button {
+  all: unset;
+}
+.workspace-icon {
+  color: #d8e2ff;
+}
+
+/*Right */
+.right {
+  margin-right: 200px;
+}
+
+/*Time */
+.time {
+  border-radius: 5px;
+  padding: 5px;
+  background: #2b4678;
+  color: #d8e2ff;
+}
+
+.volume {
+  margin-right: 20px;
+  background: #2b4678;
+  padding: 0 5px;
+  border-radius: 10px;
+  color: #d8e2ff;
+}
+
+.combo {
+  background: #2b4678;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.wifi-icon {
+  font-size: 1.5em;
+  color: #d8e2ff;
+}
+
+/*Battery style*/
+.battery {
+  margin: 0 10px;
+}
+
+.battery-progress trough {
+  min-width: 75px;
+  min-height: 20px;
+  border-radius: 2.5px;
+  border: 1px solid #e2e2e9;
+}
+.battery-progress progress {
+  min-height: 18px;
+  border-radius: 2.5px;
+  background: #d8e2ff;
+}
+.battery-bulb {
+  min-width: 3px;
+  min-height: 14px;
+  background: #e2e2e9;
+}
+
+.arch-button {
+  margin-left: 10px;
+  background: #93000a;
+}
+.arch-icon {
+  color: #ffdad6;
+}
+
+.p-button {
+  min-width: 100px;
+  margin: 10px;
+  background: #3f4759;
+}
+
+.p-icon {
+  font-size: 1.5em;
+  color: #dbe2f9;
+}
+
+.p-label {
+  color: #2f3036;
+  border-radius: 5px;
+  background: #e2e2e9;
+}
+
+.qs-header {
+  margin: 10px;
+}
+.qs-header-avatar {
+  border-radius: 50%;
+}
+.qs-header-sysbtn {
+  all: unset;
+  font-size: 1.5em;
+  border-radius: 25%;
+  padding: 0 15px;
+  background: #3f4759;
+  color: #dbe2f9;
+}
+.qs-header-signout {
+  all: unset;
+  color: #8e9099;
+  font-size: 1.2em;
+  border: 2px solid #44474f;
+  border-radius: 10px;
+  padding: 0 5px;
+}
+
+.qs-btn {
+  background: #e2e2e9;
+  color: #2f3036;
+  min-width: 150px;
+  border-radius: 30px;
+  margin: 5px;
+}
+.qs-btn-active {
+  background: #3f4759;
+  color: #dbe2f9;
+}
+
+.qs-notif-header {
+  margin-top: 20px;
+}
+.qs-notif-clear {
+  background: #583e5b;
+  border-radius: 30px;
+  color: #fbd7fc;
+  min-width: 60px;
+}
+
+.qs {
+  min-width: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  background: #e2e2e9;
+}
+.qs-closer {
+  all: unset;
+  font-size: 1.5em;
+  color: #dbe2f9;
+  background: #3f4759;
+}
+
+window.notification-popups box.notifications {
+  padding: 0.5em;
+}
+
+.notification-list {
+  margin-top: 20px;
+  background: #c4c6d0;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+.notification {
+  min-width: 250px;
+  border-radius: 11px;
+  padding: 1em;
+  margin: 0.5em;
+  border: 1px solid #e2e2e9;
+  background-color: #bfc6dc;
+}
+.notification-icon {
+  min-width: 68px;
+  min-height: 68px;
+  margin-right: 1em;
+}
+.notification-icon image {
+  font-size: 58px;
+  margin: 5px;
+  color: #293041;
+}
+.notification-icon box {
+  min-width: 68px;
+  min-height: 68px;
+  border-radius: 7px;
+}
+.notification-title {
+  color: #293041;
+  font-size: 1.2em;
+}
+.notification-body {
+  color: #8e9099;
+}
+.notification-actions, .notification-action-button {
+  margin: 0 0.4em;
+  margin-top: 0.8em;
+}
+.notification-actions .action-button:first-child, .notification-action-button .action-button:first-child {
+  margin-left: 0;
+}
+.notification-actions .action-button:last-child, .notification-action-button .action-button:last-child {
+  margin-right: 0;
+}
+.notification .critical {
+  border: 1px solid #ffb4ab;
+}
+
+scrollbar {
+  all: unset;
+}
+scrollbar trough {
+  color: #37393e;
+  background-color: #37393e;
+  min-width: 0px;
+}
+scrollbar trough slider {
+  background-color: #37393e;
+  color: #37393e;
+  min-width: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

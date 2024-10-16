@@ -1,0 +1,105 @@
+@use 'colors' as *;
+
+#StatusBar {
+  background: $surface;
+}
+
+.main {
+  margin: 10px 0;
+}
+
+.left-box {
+  margin-left: 200px;
+}
+
+.launcher {
+  &-button {
+    background: $tertiary-container;
+  }
+  &-icon {
+    color: $on-tertiary-container;
+  }
+}
+
+.workspace {
+  background: $primary-container;
+  padding: 0 5px;
+  border-radius: 10px;
+
+  &-button {
+    all: unset;
+  }
+
+  &-icon {
+    color: $on-primary-container;
+  }
+}
+
+/*Right */
+.right {
+  margin-right: 200px;
+}
+/*Time */
+.time {
+  border-radius: 5px;
+  padding: 5px;
+  background: $primary-container;
+  color: $on-primary-container;
+}
+
+.volume {
+  margin-right: 20px;
+  background: $primary-container;
+  padding: 0 5px;
+  border-radius: 10px;
+  color: $on-primary-container;
+}
+
+.combo {
+  background: $primary-container;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.wifi-icon {
+  font-size: 1.5em;
+  color: $on-primary-container;
+}
+/*Battery style*/
+.battery {
+  margin: 0 10px;
+}
+
+.battery {
+  &-progress {
+    trough {
+      min-width: 75px;
+      min-height: 20px;
+      border-radius: 2.5px;
+      border: 1px solid $on-surface;
+    }
+
+    progress {
+      min-height: 18px;
+      border-radius: 2.5px;
+      background: $on-primary-container;
+    }
+  }
+
+  &-bulb {
+    min-width: 3px;
+    min-height: 14px;
+    background: $on-surface;
+  }
+}
+
+.arch {
+  &-button {
+    margin-left: 10px;
+    background: $error-container;
+  }
+
+  &-icon {
+    color: $on-error-container;
+  }
+}

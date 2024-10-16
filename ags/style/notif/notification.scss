@@ -1,0 +1,65 @@
+@use "../colors" as *;
+
+window.notification-popups box.notifications {
+  padding: .5em;
+}
+
+.notification-list {
+  margin-top: 20px;
+  background: $on-surface-variant;
+  border-radius: 20px;
+  min-height: 400px;
+}
+
+.notification {
+  min-width: 250px;
+  border-radius: 11px;
+  padding: 1em;
+  margin: .5em;
+  border: 1px solid $on-surface;
+  background-color: $secondary;
+
+  &-icon {
+    min-width: 68px;
+    min-height: 68px;
+    margin-right: 1em;
+
+    image {
+      font-size: 58px;
+      margin: 5px;
+      color: $on-secondary;
+    }
+
+    box {
+      min-width: 68px;
+      min-height: 68px;
+      border-radius: 7px;
+    }
+  }
+
+  &-title {
+    color: $on-secondary;
+    font-size: 1.2em;
+  }
+
+  &-body {
+    color: $outline;
+  }
+
+  &-actions, &-action-button {
+    margin: 0 .4em;
+    margin-top: .8em;
+
+    .action-button:first-child {
+      margin-left: 0;
+    }
+
+    .action-button:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .critical {
+    border: 1px solid $error;
+  }
+}

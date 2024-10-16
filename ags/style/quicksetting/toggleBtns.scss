@@ -1,0 +1,15 @@
+@use "../colors" as *;
+
+.qs-btn {
+  background: $inverse-surface;
+  color: $inverse-on-surface;
+  min-width: 150px;
+  border-radius: 30px;
+  margin: 5px;
+  
+  &-active {
+    background: $secondary-container;
+    color: $on-secondary-container;
+  }
+}
+

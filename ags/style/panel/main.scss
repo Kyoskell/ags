@@ -1,0 +1,13 @@
+@use "../colors" as *;
+@use "quicksetting";
+@use "notif";
+.panel {
+  padding: 20px;
+  min-height: 600px;
+  background-color: $surface-bright;
+  border-radius: 20px;
+}
+
+.overlay-indicator {
+  all: unset;
+}

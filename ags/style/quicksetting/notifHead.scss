@@ -1,0 +1,14 @@
+@use "../colors" as *;
+
+.qs-notif {
+  &-header {
+    margin-top: 20px;
+  }
+
+  &-clear {
+    background: $tertiary-container;
+    border-radius: 30px;
+    color: $on-tertiary-container;
+    min-width: 60px;
+  }
+}

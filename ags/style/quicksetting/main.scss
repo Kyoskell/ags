@@ -1,0 +1,17 @@
+@use "../colors" as *;
+@use "header";
+@use "toggleBtns";
+@use "notifHead";
+
+.qs {
+  min-width: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  background: $inverse-surface;
+  &-closer {
+    all: unset;
+    font-size: 1.5em;
+    color: $on-secondary-container;
+    background: $secondary-container;
+  }
+}
